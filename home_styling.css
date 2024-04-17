@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey:ital@1&family=Lato&family=Montserrat:wght@500&family=Noto+Serif:ital,wght@0,400;1,700&family=Poppins:ital,wght@1,500&family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Biryani:wght@900&family=Comfortaa:wght@500&family=Raleway:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&family=Quicksand:wght@600&family=Rubik:wght@300&display=swap');
+
+*{
+	margin: 100;
+	padding: 100;
+	box-sizing: border-box;
+}
+body{
+	background-color: Ivory;
+}
+a{
+	font-style: bold;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  height: 2%;
+}
+.wrapper{
+	margin-top: 0%;
+}
+.team{
+	display: flex;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+}
+.team .product{
+	background-color: Bisque;
+	margin: 10px;
+	margin-bottom: 10px;
+	width: 370px;
+	padding: 12px;
+	line-height: 10px;
+	color: #8B4513;
+	position: relative;
+}
+.team .product h2{
+	color: brown;
+	font-size: 25px;
+	margin-top: 15px;
+	font-family: 'noto serif', serif;
+}
+.team .product p.product_price{
+	color: #000;
+	font-size: 19px;
+	font-style: bold;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.team .product p.product_description{
+	color: #000;
+	font-size: 15px;
+	line-height:1.2;
+	font-style: bold;
+	font-family: 'Rubik', sans-serif;
+}
+
+h2.main{
+	font-family: 'Raleway', sans-serif;
+	color:Sienna;
+	font-weight: 800;
+	font-stretch: extra-expanded;
+	font-size:40px;
+	font-style:bold;
+	line-height:0.3;
+	text-align:center;
+}
+
+h3.nav{
+	letter-spacing: 2px;
+	line-height:1.0;
+	font-family: 'Rubik', sans-serif;
+	font-size:18px;
+	text-align:center;
+	background-color: BlanchedAlmond;
+	margin:auto;
+	margin-bottom: 20px;
+	width: 670px;
+	padding: 8px;
+	line-height: 20px;
+	color: #FAEBD7;
+	position: relative;
+}
+hr{
+	height:3px;
+	border-width:0;
+	color:wheat;
+	background-color:wheat;
+	}
+h4.big{
+	margin-top: 50px;
+	font-style: italic;
+	line-height:0.0;
+	font-family:"Noto serif", serif;
+	color:sandybrown;
+	font-size:42px;
+	text-align:center;
+}
+h4.small{
+	margin-top: 10px;
+	line-height:0.0;
+	font-family:"Montserrat", sans-serif;
+	font-style:normal;
+	color:brown;
+	font-size:23px;
+	text-align:center;
+}
+
+.wrapper2{
+	margin-top: 0%;
+}
+.team2{
+	display: flex;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+}
+.team2 .product2{
+	background-color: Bisque;
+	margin: 10px;
+	margin-bottom: 10px;
+	width: 370px;
+	padding: 12px;
+	line-height: 10px;
+	color: #8B4513;
+	position: relative;
+}
+.team2 .product2 h2{
+	color: brown;
+	font-size: 25px;
+	margin-top: 15px;
+	font-family: 'noto serif', serif;
+}
+.team2 .product2 p.product_price2{
+	color: #000;
+	font-size: 19px;
+	font-style: bold;
+	font-family: 'Quicksand', sans-serif;
+}
+
+.team2 .product2 p.product_description2{
+	color: #000;
+	font-size: 15px;
+	line-height:1.2;
+	font-style: bold;
+	font-family: 'Rubik', sans-serif;
+}
+h4.big2{
+	margin-top: 50px;
+	font-style: italic;
+	line-height:0.0;
+	font-family:"Noto serif", serif;
+	color:sandybrown;
+	font-size:42px;
+	text-align:center;
+}
+h4.small2{
+	margin-top: 10px;
+	line-height:0.0;
+	font-family:"Montserrat", sans-serif;
+	font-style:normal;
+	color:brown;
+	font-size:23px;
+	text-align:center;
+}
+
+.teamMid{
+	background-color: Moccasin;
+	width: 100%;
+	padding-bottom: 50px; 
+	padding: 40px;
+}
+
+h2.mid{
+	font-style: bold;
+	text-align: left;
+	color: Coral;
+	text-transform: uppercase;
+	font-size: 25px;
+	line-height: 15px;
+	font-family: 'Montserrat', sans-serif;
+}
+p.one{
+	color: DimGray;
+	text-align: left;
+	font-size: 20px;
+	line-height: 15px;
+	font-family: 'Quicksand', sans-serif;
+}
+p.two{
+	color: DimGray;
+	text-align: left;
+	font-size: 15px;
+	line-height: 15px;
+	font-family: 'Quicksand', sans-serif;
+}
+p.one2{
+	color: DimGray;
+	text-align: left;
+	font-size: 20px;
+	line-height: 15px;
+	font-family: 'Quicksand', sans-serif;
+}
+p.two2{
+	color:DimGray;
+	text-align: left;
+	font-size: 15px;
+	line-height: 15px;
+	font-family: 'Quicksand', sans-serif;
+}
